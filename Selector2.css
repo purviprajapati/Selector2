@@ -1,0 +1,74 @@
+/* universal selector */
+*{
+    color:rgb(30, 140, 184);
+}
+
+/* Element Selector */
+
+h1{
+    color: yellowgreen;
+} 
+
+/* Id Selector */
+
+#heading4{
+    color: brown;
+}
+
+#heading5{
+    color: chocolate;
+}
+
+
+/* Class selector */
+.myclass{
+    color:orange;
+}
+
+#box{
+    background-color: black;
+    color: pink;
+}
+
+button{
+background-color: coral;
+color: black;
+}
+
+/* multiple element use at a time */
+
+/* h1 ,h2{
+    color: grey;
+} */
+
+p{
+    text-align: center;
+    text-decoration: underline; 
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+
+    /* text-decoration: black wavy underline; */
+    /* text-decoration: black solid underline; */
+    /* text-decoration: black dotted underline; */
+    /* text-decoration: black dashed underline; */
+
+}
+
+/* Remove link underline(how to set as a simple text) */
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: normal;
+    /* font-weight: bold; */
+    /* font-weight: bolder; */
+}
+
+#parent{
+    font-size: 30px;
+}
+
+#child{
+    font-size: 20px;
+}
